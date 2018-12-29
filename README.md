@@ -1,4 +1,4 @@
-# C-assebly-combination-
+# C-assembly-combination
 Simulating a variant of Conway's Game of Life.
 In the variant to be implemented in this code, every organism is a cell in a grid made of hexagonal close-packed disks, so it has 6 neighbors. The LIFE board is toroidal.
 
@@ -9,3 +9,6 @@ The program initializes an appropriate mechanism, and control is then passed to 
 The cell organisms change according to the following rules: if the cell is currently alive, then it will remain alive in the next generation if and only if exactly 3 or 4 of its neighbors are currently alive. Otherwise it dies. A dead cell remains dead in the next generation, unless it has exactly 2 living neighbors, in which case we say that an organism is born here.
 
 A specialized co-routine called the printer prints the organism states for all the cells as a two dimensional hexagonal grid.
+
+
+Happy new year
